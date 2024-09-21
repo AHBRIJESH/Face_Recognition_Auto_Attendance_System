@@ -1,13 +1,12 @@
 # importing Necessary Libraries
-import numpy as np
-import pandas as pd
+import io
 import os
 import cv2
-import matplotlib.pyplot as plt
 import pyodbc
-import io
 import base64
-from PIL import Image 
+import numpy as np
+import pandas as pd
+from PIL import Image
 from datetime import datetime 
 from tensorflow.keras.models import load_model
 from flask import Flask,render_template,request,jsonify

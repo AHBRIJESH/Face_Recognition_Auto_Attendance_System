@@ -6,7 +6,7 @@ const context = canva.getContext('2d');
 function display_camera()
 { navigator.mediaDevices.getUserMedia({video: true})
     .then(stream =>{image.srcObject = stream;})
-    .catch(err =>{console.error('Please Allow the camera to access the camer',err)})}
+    .catch(err =>{console.error('Please allow the camera to access the camera.',err)})}
 
 button.addEventListener('click',()=>{ context.drawImage(image, 0, 0, canva.width, canva.height);
                                       const cap_image = canva.toDataURL('image/png');

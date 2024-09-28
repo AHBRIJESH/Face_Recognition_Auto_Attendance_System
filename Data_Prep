@@ -1,0 +1,2 @@
+from vinzy_imgdata_importer import img_data_importer
+X_data , Y_data , m = img_data_importer('Data')

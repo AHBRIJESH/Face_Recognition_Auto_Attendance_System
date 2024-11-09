@@ -8,17 +8,13 @@ This project is a **Face Recognition System** that uses a Convolutional Neural N
 
 
 ### Directory Breakdown:
-- **`.ipynb_checkpoints/`**: Contains Jupyter notebook checkpoints for version control.
 - **`Data/`**: Contains raw image data for training.
-- **`dataset/`**: Stores the dataset used for training the model.
 - **`Labelled_Data/`**: Contains labeled data (images with face labels).
 - **`static/`**: Static files such as images or CSS.
 - **`templates/`**: Templates for the user interface.
-- **`Data_Prep/`**: Python scripts or notebooks for data preparation and preprocessing.
-- **`face.ipynb`**: Jupyter notebook that handles image processing, data loading, and model training.
-- **`Model.ipynb`**: Jupyter notebook for defining and training the CNN model.
+- **`Data_Prep/`**: Python script for data preparation and preprocessing.
+- **`Model.ipynb`**: Jupyter notebook that handles image processing, data loading, and model training.
 - **`model.keras`**: The saved model after training. It contains the architecture, weights, and training configuration.
-- **`README.md`**: This file, which explains the project.
 - **`UI.py`**: Python script for the user interface of the face recognition system.
 
 ## Code Explanation
@@ -48,8 +44,11 @@ The trained model is saved in the `model.keras` file, which can be reloaded late
 - TensorFlow/Keras
 - NumPy, pandas, seaborn, matplotlib
 - OpenCV (for image processing)
+- My SQL
 
 ## Get Started with 
   ```bash
-  git clone <repository_url>
+  git clone https://github.com/AHBRIJESH/Face_Recognition_Auto_Attendance_System.git
 ```
+
+run the **`app.bat`** file to launch the app

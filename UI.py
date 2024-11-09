@@ -35,9 +35,8 @@ def return_image():                      # function to get image from the web pa
     labels = ['donald','mickey','minion','olfa','pooh','pumba']
     Name = labels[np.argmax(predection)]       # performing the predection
 
-    currunt_time = datetime.now()
-    Date = currunt_time.strftime('%Y-%m-%D')
-    time = currunt_time.strftime('%H:%M:%S')   # determing the currunt time and date
+    Date = datetime.now().strftime('%Y-%m-%d')
+    time = datetime.now().strftime('%H:%M:%S')   # determing the currunt time and date
 
     connection = pyodbc.connect("DSN=SQL")     # establishing connection to the MySql Database
     cur = connection.cursor()

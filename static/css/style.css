@@ -41,3 +41,10 @@ video{
     margin-left: 640px;
     display: block;
 }
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+}

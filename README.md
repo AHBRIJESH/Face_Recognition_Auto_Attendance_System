@@ -1,3 +1,5 @@
+![Convolutional Neural Network](https://img.shields.io/badge/Implementation-Naive%20Bayes-darkgreen)
+
 # Face Recognition System
 
 This project is a **Face Recognition System** that uses a Convolutional Neural Network (CNN) for image classification. The model is trained on labeled image data and can recognize faces based on the provided dataset.
@@ -46,3 +48,8 @@ The trained model is saved in the `model.keras` file, which can be reloaded late
 - TensorFlow/Keras
 - NumPy, pandas, seaborn, matplotlib
 - OpenCV (for image processing)
+
+## Get Started with 
+  ```bash
+  git clone <repository_url>
+```

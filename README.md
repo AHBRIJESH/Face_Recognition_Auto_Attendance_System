@@ -1,4 +1,4 @@
-![Convolutional Neural Network](https://img.shields.io/badge/Implementation-Convolutional%20Neural%20Network-darkgreen)
+![Convolutional Neural Network](https://img.shields.io/badge/Implementation-Convolutional%20Neural%20Network-red)
 
 # Face Recognition System
 

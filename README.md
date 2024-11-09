@@ -1,4 +1,4 @@
-![Convolutional Neural Network](https://img.shields.io/badge/Implementation-Convolutional%20Neural%20Network-red)
+![Convolutional Neural Network](https://img.shields.io/badge/Implementation-Convolutional%20Neural%20Network-darkred)
 
 # Face Recognition System
 
@@ -50,5 +50,6 @@ The trained model is saved in the `model.keras` file, which can be reloaded late
   ```bash
   git clone https://github.com/AHBRIJESH/Face_Recognition_Auto_Attendance_System.git
 ```
+- Click the **`app.bat`** file to launch the app.
 
-run the **`app.bat`** file to launch the app
+  Happy coding! 🚀👨‍💻👩‍💻💻😊
